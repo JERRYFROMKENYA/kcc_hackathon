@@ -1,0 +1,28 @@
+{
+  "name": "kcc-hackathon",
+  "version": "1.0.0",
+  "description": "Written for the purpose of entering the tbd KCC hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "hackathon",
+    "kcc",
+    "tbd",
+    "tbdex-sdk"
+  ],
+  "author": "JERRYFROMKENYA",
+  "license": "ISC",
+  "dependencies": {
+    "@web5/api": "^0.11.0",
+    "@web5/credentials": "^1.1.1",
+    "@web5/dids": "^1.1.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "handy-storage": "^2.1.6",
+    "node-localstorage": "^3.0.5"
+  }
+}
